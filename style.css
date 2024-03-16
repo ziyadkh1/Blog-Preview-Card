@@ -1,0 +1,78 @@
+@font-face {
+    font-family: figtree;
+    src: url(assets/fonts/Figtree-VariableFont_wght.ttf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.container{
+    background-color: white;
+    max-width: 375px;
+    padding: 1rem;
+    border-radius: 12px;
+    border: solid 1px black;
+    box-shadow: 16px 16px hsl(0, 0%, 7%);
+}
+body{
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: figtree;
+}
+#illustration{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+#learning{
+    background-color: hsl(47, 88%, 63%);
+}
+h1{
+    color: black;
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+a{
+    color: hsl(0, 0%, 7%);
+}
+.container .learning{
+    background-color: hsl(47, 88%, 63%);
+    width: min-content;
+    padding: 6px;
+    padding-right: 0.7rem;
+    padding-left: 0.7rem;
+    font-weight: 800;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+    color: hsl(0, 0%, 7%);
+}
+.container .date{
+    color: hsl(0, 0%, 7%);
+    font-weight: 600;
+}
+.container p{
+    line-height: 1.4rem;
+    color: hsl(0, 0%, 50%);
+}
+.container #avatar{
+    width: 2rem;
+}
+span:last-child{
+    font-weight: 800;
+    font-size: 0.98rem;
+}
+.author{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+}
+a:hover{
+    color: hsl(47, 88%, 63%);
+}
