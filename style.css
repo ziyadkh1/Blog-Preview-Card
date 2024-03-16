@@ -59,6 +59,7 @@ a{
 .container p{
     line-height: 1.4rem;
     color: hsl(0, 0%, 50%);
+    margin-bottom: 1.5rem;
 }
 .container #avatar{
     width: 2rem;
